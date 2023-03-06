@@ -53,7 +53,7 @@ const Cart=({payNow,removeItem,cartItem})=>
                  <ListGroupItem key={item.id} style={styles3}>
                   <Row>
                    <Col>
-                     <img height="100" width="150" src={item.tinyImage}/>
+                     <img height="100" width="150" src={item.tinyImage} alt=""/>
                    </Col>
                    <Col className="text-center">
                     <div className="text-primary">{item.productName}</div>
