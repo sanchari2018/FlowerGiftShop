@@ -15,8 +15,8 @@ const CartItem=({addCartItem,product,user})=>
     }
   };
     return(
-        <Card className="mt-2 mb-1" style={{ border: '2px solid #ccc', backgroundColor:'#ccc'}}>
-         <CardImg top height="250" width="100%" src={product.smallImage} />
+        <Card className="mt-2 mb-1" style={{ border: '2px solid black', backgroundColor:'#ccc'}}>
+         <CardImg top height="250" width="100%" src={product.smallImage} style={{ objectFit: 'cover' }}/>
          <CardBody className="text-center">
           <CardTitle className="text-black" style={{ fontFamily: 'Arial, sans-serif'}}>{product.productName}</CardTitle>
           <CardText className="secondary text-black" style={{ fontFamily: 'Verdana, sans-serif' }}>
